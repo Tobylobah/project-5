@@ -1,0 +1,1189 @@
+
+nav {
+    display: flex;
+    padding: 1% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img {
+    width: 250px;
+ 
+    display: inline-block;
+    
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+} 
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 1px 12px;
+    position: relative;
+}
+.nav-links ul li a {
+    color: #405352;
+font-weight: 400;
+line-height: 1.3rem;
+margin: 0 0.2rem;
+padding: 0.2rem 0.2rem;
+font-size: .9rem;
+letter-spacing: .05em;
+text-decoration: none;
+}
+.nav-links ul li a:hover {
+ color: #337ab7;
+    transition: 0.5s; 
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
+.header{
+    min-height: 80vh;
+    width: 100%;
+    background-image:  url("kibo project/family-img.jpg");
+    background-position: center;
+    background-size: cover;
+        position: relative;
+        display: block;
+        background-size: cover;
+    
+    }
+.sign-in{
+    margin-top: 90px;
+    padding-left:1200px;
+    padding-bottom:0;
+    text-decoration: none;
+    color:#405352;
+}
+.sign-in:hover{
+    color:#337ab7;   
+}
+.header-h1{
+    font-size: 3.6rem;
+    color: #D2EFFB;
+   /* font-family: font-family: 'Open Sans', sans-serif;*/
+   font-weight: 500;
+   line-height: 1.2;
+   margin-top: 120px;
+}
+strong{
+    color:white;
+}
+.header-p{
+    margin-top: 1.875rem;
+    font-size:18px;
+    color:white;
+    /*open sans*/
+}
+.header-flex{
+    display:flex;
+    justify-content: space-evenly;
+}
+.header-box{
+    border:1px solid white;
+    background-color: white;
+    width:436px;
+    height:330px;
+    border-radius: 28px;
+    margin-top:50px;
+    padding:22.5px 30px;
+    margin-left:270px;
+}
+.box-title{
+    font-size:15px;
+    color:#25A9E0;
+    /*open sans*/
+    padding: 0px 0px 5px;
+    border-style:solid;
+    border-color: white white #D2EFFB   white;
+    border-width: 1px;
+}
+.icon{
+    width:40px;
+    height:40px;
+    margin-top: 10px;
+}
+.box-p{ 
+    font-size: 19px;
+    color:#405352;
+   padding-left: 40px;
+}
+
+.flex-box{
+    display: flex;
+}
+.strong{
+    color:#405352;
+}
+.box-button{
+    background-color: #25A9E0;
+    border: 1px solid #25A9E0;
+    opacity: .5;
+    cursor: default;
+    padding: 0.4rem 1.6rem;
+    text-transform: uppercase;
+    font-size: .9rem;
+    letter-spacing: .06em;
+    cursor: pointer;
+    display: inline-block;
+    color:white;
+    margin-top: 30px;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+.box-button:hover{
+    background-color: #28A9E0;
+    border: 1px solid #28A9E0;
+}
+
+.container {
+  
+    display:flex;
+   justify-content:space-between;
+     flex-wrap:wrap;
+       margin-top:60px;
+}
+   .card {
+     padding: 1em;
+   
+     border: solid 1px #25A9E0;
+     border-radius: 6px;
+     width: 370px;
+     cursor: pointer;
+     background-color: #fff;
+   }
+   .card img {
+     width: 360px;
+     height:200px;
+   }
+   
+   .card:hover {
+     border: none;
+     border-right: solid 6px#25A9E0;
+     border-bottom: solid 6px #25A9E0;
+   }
+   
+   .category {
+     text-transform: lowercase;
+     font-variant: small-caps;
+     font-size: 18px;
+     font-weight: 600;
+     font-family: sans-serif;
+    color:#405352;
+   }
+   
+   .name {
+     font-size: 36px;
+     line-height: 1.2;
+     padding-bottom: 1em;
+   }
+   
+   .time, .rating {
+     font-family: sans-serif;
+     font-size: 14px;
+   }
+   h2,h4{
+       text-align: center;
+   }
+   
+   .info {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+   }
+   button{
+    background-color: transparent;
+    border: 1px solid rgb(73, 143, 204);
+    opacity: .5;
+    cursor: default;
+    padding: 0.4rem 1.6rem;
+    text-transform: uppercase;
+    font-size: .9rem;
+    letter-spacing: .06em;
+    cursor: pointer;
+    display: inline-block;
+    color:#28A9E0;
+    margin-top: 30px;
+    border-radius: 20px;
+ margin-left: 100px;
+}
+button:hover{
+    color:white;
+    background-color: #28A9E0;
+}
+.header-membership{
+    min-height: 100vh;
+    width: 100%;
+    background-image:  url("kibo project/appointment-bg.jpg");
+    background-position: center;
+    background-size: cover;
+        position: relative;
+        display: block;
+        background-size: cover;
+        margin-top: 60px;
+        opacity: 0.7;
+}
+.icon-family{
+    margin-left: 500px;
+    width:300px;
+    height:300px;
+    margin-top:50px;
+}
+.membership-h1{
+    color:#405352;
+  
+}
+.membership-h4{
+    color:#405352;
+    font-size: 30px;
+}
+.Membership-strong{
+    color:#25A9E0;
+}
+.membership{
+font-size: 23px;
+padding-left: 500px;
+word-spacing: 3px;
+}
+   .membership-button{
+    background-color:#25A9E0;
+    border: 1px solid #25A9E0;
+  
+    cursor: pointer;
+    padding: 0.4rem 1.6rem;
+    font-size: .9rem;
+    letter-spacing: .06em;
+    cursor: pointer;
+    display: inline-block;
+    color:white;
+    margin-top: 10px;
+    border-radius: 20px;
+ margin-left: 550px;
+ height:50px;
+   }
+   .membership-button:hover{
+      opacity:0.8;
+   }
+   
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.mentor2-flex{
+    display: flex;
+    margin-top: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card1{
+    border:1px solid rgb(218, 230, 247);
+    background-color:rgb(218, 230, 247);
+    width:405px;
+    height:313px;
+    position: relative;
+    border-radius: 8px;
+    margin-left: 40px;
+}
+.info2{
+    margin-top:45px;
+    margin-left: 15px;
+    font-size: 18px;
+color:#25A9E0;
+}
+.info{
+    color:#25A9E0;
+    font-size: 18px;
+    /*nunito sans*/
+    padding-left:50px;
+    padding-top: 30px;
+}
+.profile1{
+    width: 61.86px;
+    height: 61.86px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 35px;
+    
+}
+.header3{
+    min-height: 90vh;
+    width: 100%;
+    background-image:  url("kibo project/location.jpg");
+    background-position: center;
+    background-size: cover;
+        position: relative;
+        display: block;
+        background-size: cover;
+        opacity: 0.7;
+       
+    
+    }
+    .header-box2{
+        border:1px solid white;
+        background-color: white;
+        width:406px;
+        height:450px;
+        border-radius: 28px;
+        margin-top:0px;
+        padding:22.5px 30px;
+        margin-left:570px;
+    }
+ .location-h1{
+     text-align: center;
+     color:#405352;
+     font-size: 23px;
+     font-weight: 700;
+ }
+ .p-location{
+     line-height: 1.2;
+     color:#080808;
+     font-size: 19px;
+     font-weight: 400;
+ 
+ }
+ .border-location{
+    border-style:solid;
+    border-color: white white #D2EFFB   white;
+    border-width: 1px;
+ }
+ .location-h2{
+    text-align: center;
+    color:#405352;
+    font-size: 20px;
+    font-weight: 700;
+}
+.email-p{
+    text-align: center;
+    color:#405352;
+}
+input[type=email]{
+    border-radius: 40px;
+    width:120px;
+    height:35px;
+    border:1px solid #25A9E0;
+   margin-left: 560px;
+}
+.footer-img{
+    width:30px;
+    margin-left: 200px;
+    margin-top:40px;
+}
+input[type=email]{
+    border: 0px solid white;
+    border-bottom-width: 1px;
+    background-color: #25A9E0;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    width:280px;
+
+}
+
+
+.sign-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+input[type=text]{
+    border: 0px solid white;
+    border-bottom-width: 1px;
+    background-color:#25A9E0;
+    margin-left: 130px;
+    margin-bottom: 20px;
+    width:280px;
+
+}
+.sign-header{
+    min-height: 90vh;
+    width: 100%;
+    background-image:  url("kibo project/appointment-bg.jpg");
+    background-position: center;
+    background-size: cover;
+        position: relative;
+        display: block;
+        background-size: cover;
+        margin-top: 50px;
+     
+}
+.card-cover {
+    border-width:1px;
+    border-color: white;
+    border-radius: 7px;
+    border-width: 2px;
+    width: 500px;
+    height: 370px;
+    margin-left: 160px;
+    margin-top:80px;
+    background-color:white;
+    box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+
+}
+
+.card-cover-p{
+    font-size: 30px;
+    color:#25A9E0;
+    padding-top:30px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+
+
+.card-cover-p2{
+    color: green;
+    text-align: center;
+    font-weight: 100;
+    font-size: small;
+}
+.card-cover2 {
+    border-width:1px;
+    border-color: white;
+    border-width: 2px;
+    width: 500px;
+    height: 450px;
+    margin-left:50px;
+    margin-top:60px ;
+    background-color: white;
+    box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+
+}
+.two{
+    text-decoration: none;
+    color:#25A9E0;
+}
+
+
+.one{
+
+    color:#25A9E0;
+    margin-top: 5px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.p2{
+
+    color:white;
+    margin-top: 5px;
+    text-align:center ;
+}
+
+
+
+.or{
+    text-align: center;
+    color: white;
+}
+.button2{
+    border-color:  rgb(18, 38, 56);
+    background-color:   rgb(18, 38, 56);
+    color:white;
+    border-radius: 20px;
+    width:257px;
+    height: 30px;
+    text-align:center ;
+margin-top:5px;
+margin-left: 130px;
+border-style: solid;
+}
+#face{
+    margin-left:200px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width:992px) {
+    
+
+    nav {
+        display: flex;
+        padding: 1% 2%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav img {
+        width: 250px;
+     
+        display: inline-block;
+        
+    }
+    .header{
+        min-height: 100vh;
+        width:100%;
+        background-image:  url("kibo project/family-img.jpg");
+        background-position: center;
+        background-size: cover;
+            position: relative;
+            display: block;
+            background-size:c
+        
+        }
+        .header-h1{
+            font-size: 2.6rem;
+            color: #D2EFFB;
+           /* font-family: font-family: 'Open Sans', sans-serif;*/
+           font-weight: 500;
+           line-height: 1.2;
+           margin-top: 120px;
+     
+        }
+     
+        .header-p{
+            margin-top: 1.875rem;
+            font-size:18px;
+            color:white;
+            /*open sans*/
+            margin-left: 10px;
+        }
+        
+    .header-flex{
+        display:flex;
+    
+    }
+    .header-box{
+        border:1px solid white;
+        background-color: white;
+        width:236px;
+        height:370px;
+        border-radius: 28px;
+        margin-top:50px;
+        padding:22.5px 30px;
+       margin-left: 15px;
+    }
+ 
+    .flex-box{
+        display: flex;
+    }
+    .strong{
+        color:#405352;
+    }
+    .box-button{
+        background-color: #25A9E0;
+        border: 1px solid #25A9E0;
+        opacity: .5;
+        cursor: default;
+        padding: 0.4rem 1.6rem;
+        text-transform: uppercase;
+        font-size: .9rem;
+        letter-spacing: .06em;
+        cursor: pointer;
+        display: inline-block;
+        color:white;
+        margin-top: 10px;
+        border-radius: 20px;
+        margin-left: 30px;
+ 
+    }
+    
+.container {
+  
+    display:flex;
+   justify-content:space-between;
+     flex-wrap:wrap;
+       margin-top:60px;
+   }
+   
+
+   .card {
+     padding: 1em;
+     border: solid 1px #25A9E0;
+     border-radius: 6px;
+     width: 270px;
+     cursor: pointer;
+     background-color: #fff;
+   }
+   
+   .card img {
+     width: 260px;
+     height:200px;
+   }
+ button{
+     margin-left:50px;
+ }
+.icon-family{
+    margin-left: 400px;
+    width:300px;
+    height:300px;
+    margin-top:50px;
+}
+.membership{
+    font-size: 23px;
+    padding-left: 350px;
+    word-spacing: 3px;
+    }
+    .membership-button{
+        margin-left:370px;
+        margin-bottom: 20px;
+    }
+.card1{
+    height:355px;
+}
+.header-box2{
+    border:1px solid white;
+    background-color: white;
+    width:406px;
+    height:450px;
+    border-radius: 28px;
+    margin-top:10px;
+    padding:22.5px 30px;
+    margin-left:270px;
+}
+.header3{
+    min-height: 120vh;
+    width: 100%;
+    background-image:  url("kibo project/location.jpg");
+    background-position: center;
+    background-size: cover;
+        position: relative;
+        display: block;
+        background-size: cover;
+        opacity: 0.7;
+       
+    
+    }
+    
+.card-cover {
+    border-width:1px;
+    border-color: white;
+    border-radius: 7px;
+    border-width: 2px;
+    width: 530px;
+    height: 370px;
+    margin-left: 10px;
+    margin-top:80px;
+    background-color:white;
+    box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+
+}
+.card-cover2 {
+    border-width:1px;
+    border-color: white;
+    border-width: 2px;
+    width: 500px;
+    height: 450px;
+    margin-left:20px;
+    margin-top:60px ;
+    background-color: white;
+    box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+
+}   
+}
+
+@media screen and (max-width:768px) {
+    nav {
+        display: flex;
+        padding: 1% 2%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav img {
+        width: 250px;
+     
+        display: inline-block;
+        
+    }
+    .header{
+        min-height: 100vh;
+        width:100%;
+        background-image:  url("kibo project/family-img.jpg");
+        background-position: center;
+        background-size: cover;
+            position: relative;
+            display: block;
+            background-size:cover;
+        
+        }
+        .header-h1{
+            font-size: 2.6rem;
+            color: #D2EFFB;
+           /* font-family: font-family: 'Open Sans', sans-serif;*/
+           font-weight: 500;
+           line-height: 1.2;
+           margin-top: 120px;
+     
+        }
+     
+        .header-p{
+            margin-top: 1.875rem;
+            font-size:18px;
+            color:white;
+            /*open sans*/
+            margin-left: 10px;
+        }
+        
+    .header-flex{
+        display:flex;
+        
+    
+    }
+    .header-box{
+        border:1px solid white;
+        background-color: white;
+        width:236px;
+        height:370px;
+        border-radius: 28px;
+        margin-top:50px;
+        padding:22.5px 30px;
+       margin-left: 15px;
+    }
+ 
+    .flex-box{
+        display: flex;
+      
+    }
+  
+    .box-button{
+        background-color: #25A9E0;
+        border: 1px solid #25A9E0;
+        opacity: .5;
+        cursor: default;
+        padding: 0.4rem 1.6rem;
+        text-transform: uppercase;
+        font-size: .9rem;
+        letter-spacing: .06em;
+        cursor: pointer;
+        display: inline-block;
+        color:white;
+        margin-top: 10px;
+        border-radius: 20px;
+        margin-left: 30px;
+ 
+    }
+    
+.container {
+
+    display:flex;
+   justify-content:space-between;
+     flex-wrap:wrap;
+       margin-top:60px;
+   }
+   .card {
+     padding: 1em;
+   
+     border: solid 1px #25A9E0;
+     border-radius: 6px;
+     width: 190px;
+     cursor: pointer;
+     background-color: #fff;
+   }
+   
+   .card img {
+     width: 180px;
+     height:200px;
+   }
+ button{
+     margin-left:30px;
+ }
+   
+.icon-family{
+    margin-left: 280px;
+    width:300px;
+    height:300px;
+    margin-top:50px;
+}
+.membership{
+    font-size: 23px;
+    padding-left: 280px;
+    word-spacing: 3px;
+    }
+    .membership-button{
+        margin-left:280px;
+        margin-bottom: 20px;
+    }
+.card1{
+    height:300px;
+    
+}
+.info{
+    font-size: 15px;
+    padding-left: 4px;
+
+}
+.info2{
+    margin-top:45px;
+    margin-left: 15px;
+    font-size: 12px;
+color:#25A9E0;
+}
+
+.profile1{
+    width: 31.86px;
+    height: 31.86px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 35px;
+    
+}
+.header-box2{
+    border:1px solid white;
+    background-color: white;
+    width:406px;
+    height:450px;
+    border-radius: 28px;
+    margin-top:10px;
+    padding:22.5px 30px;
+    margin-left:270px;
+}
+.header3{
+    min-height: 120vh;
+    width: 100%;
+    background-image:  url("kibo project/location.jpg");
+    background-position: center;
+    background-size: cover;
+        position: relative;
+        display: block;
+        background-size: cover;
+        opacity: 0.7;
+       
+    
+    }
+    .footer-img{
+        width:30px;
+        margin-left: 100px;
+        margin-top:40px;
+    }
+ 
+.card-cover {
+    border-width:1px;
+    border-color: white;
+    border-radius: 7px;
+    border-width: 2px;
+    width: 430px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top:80px;
+    background-color:white;
+    box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+
+}
+.card-cover2 {
+    border-width:1px;
+    border-color: white;
+    border-width: 2px;
+    width: 500px;
+    height: 450px;
+    margin-left:20px;
+    margin-top:60px ;
+    background-color: white;
+    box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+
+}
+
+input[type=email]{
+    border: 0px solid white;
+    border-bottom-width: 1px;
+    background-color: #25A9E0;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width:280px;
+
+}
+.sign-flex{
+    display: flex;
+    flex-direction: row;
+}
+.card-cover-p{
+    font-size: 30px;
+    color:#25A9E0;
+    padding-top:10px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 10px;
+    line-height: 0.1;
+
+}
+.card-cover-p2{
+    color: green;
+    text-align: center;
+    font-weight: 100;
+    font-size: small;
+
+}
+.card-cover2 {
+    border-width:1px;
+    border-color: white;
+    border-width: 2px;
+    width: 500px;
+    height: 450px;
+    margin-left:50px;
+    margin-top:60px ;
+    background-color: white;
+    box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+
+}
+.two{
+    text-decoration: none;
+    color:#25A9E0;
+}
+
+
+.one{
+
+    color:#25A9E0;
+    margin-top: 5px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.p2{
+
+    color:white;
+    margin-top: 5px;
+    text-align:center ;
+}
+.or{
+    text-align: center;
+    color: white;
+}
+.button2{
+    border-color:  rgb(18, 38, 56);
+    background-color:   rgb(18, 38, 56);
+    color:white;
+    border-radius: 20px;
+    width:207px;
+    height: 30px;
+    text-align:center ;
+margin-top:5px;
+margin-left: 50px;
+border-style: solid;
+}
+#face{
+    margin-left:200px;
+}
+@media screen and (max-width:450px) {
+    nav {
+        display: flex;
+        padding: 1% 2%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav img {
+        width: 250px;
+     
+        display: inline-block;
+        
+    }
+    .header{
+        min-height: 100vh;
+        width:100%;
+        background-image:  url("kibo project/family-img.jpg");
+        background-position: center;
+        background-size: cover;
+            position: relative;
+            display: block;
+            background-size:cover;
+        
+        }
+        .header-h1{
+            font-size: 29px;
+            color: #D2EFFB;
+           /* font-family: font-family: 'Open Sans', sans-serif;*/
+           font-weight: 500;
+           line-height: 1.2;
+           margin-top: 120px;
+           padding-left: 10px;
+     
+        }
+    
+        .header-p{
+            margin-top: 1.875rem;
+            font-size:18px;
+            color:white;
+            /*open sans*/
+            margin-left: 9px;
+        }
+        
+    .header-flex{
+        display:flex;
+        
+    
+    }
+    .header-box{
+        border:1px solid white;
+        background-color: white;
+        width:136px;
+        height:300px;
+        border-radius: 28px;
+        margin-top:50px;
+        padding:22.5px 30px;
+       margin-left: 15px;
+    }
+
+    .box-p{ 
+        font-size: 10px;
+        color:#405352;
+       padding-left: 40px;
+    }
+    .flex-box{
+        display: flex;
+      
+    }
+  
+    .box-button{
+        background-color: #25A9E0;
+        border: 1px solid #25A9E0;
+        opacity: .5;
+        cursor: default;
+        padding: 0.4rem 1.6rem;
+        text-transform: uppercase;
+        font-size: .9rem;
+        letter-spacing: .06em;
+        cursor: pointer;
+        display: inline-block;
+        color:white;
+     
+        border-radius: 20px;
+        margin-left: -12px;
+ 
+    }
+    
+.container {
+
+    display:flex;
+   justify-content:space-between;
+     flex-wrap:wrap;
+       margin-top:60px;
+       margin-left: 100px;
+       flex-direction: column;
+   }
+   .card {
+     padding: 1em;
+   margin-top: 30px;
+     border: solid 1px #25A9E0;
+     border-radius: 6px;
+     width: 190px;
+     cursor: pointer;
+     background-color: #fff;
+   }
+   
+   .card img {
+     width: 180px;
+     height:200px;
+   }
+ button{
+     margin-left:30px;
+ }
+   
+.icon-family{
+    margin-left: 100px;
+    width:300px;
+    height:300px;
+    margin-top:50px;
+}
+.membership{
+    font-size: 15px;
+    padding-left: 100px;
+    
+    }
+    .membership-button{
+        margin-left:100px;
+        margin-bottom: 20px;
+    }
+    .membership-h4{
+        font-size: 20px;
+    }
+    .mentor2-flex{
+        display: flex;
+        flex-direction: column;
+    }
+.card1{
+    width:230px;
+    height:300px;
+    margin-top: 20px;
+    
+}
+
+.header-box2{
+    border:1px solid white;
+    background-color: white;
+    width:206px;
+    height:450px;
+    border-radius: 28px;
+    margin-top:10px;
+    padding:22.5px 30px;
+    margin-left:100px;
+}
+
+    .footer-img{
+        width:30px;
+        margin-left: 60px;
+        margin-top:40px;
+    }
+   .sign-flex{
+       display: flex;
+       flex-direction: column;
+   }
+    
+    
+.card-cover {
+    border-width:1px;
+    border-color: white;
+    border-radius: 7px;
+    border-width: 2px;
+    width: 260px;
+    height: 320px;
+    margin-left: 140px;
+    margin-top:80px;
+    background-color:white;
+    box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+
+}
+.card-cover2 {
+    border-width:1px;
+    border-color: white;
+    border-radius: 7px;
+    border-width: 2px;
+    width: 300px;
+    height: 400px;
+    margin-left: 100px;
+    margin-top:80px;
+    background-color:white;
+    box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+
+}
+
+input[type=email]{
+    border: 0px solid white;
+    border-bottom-width: 1px;
+    background-color: #25A9E0;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width:180px;
+
+}
+.button2{
+    border-color:  rgb(18, 38, 56);
+    background-color:   rgb(18, 38, 56);
+    color:white;
+    border-radius: 20px;
+    width:207px;
+    height: 30px;
+    text-align:center ;
+margin-top:5px;
+margin-left: 20px;
+border-style: solid;
+}
+.sign-header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:  url("kibo project/appointment-bg.jpg");
+    background-position: center;
+    background-size: cover;
+        position: relative;
+        display: block;
+        background-size: cover;
+        margin-top: 50px;
+     
+}
+}
