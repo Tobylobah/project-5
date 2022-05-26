@@ -1,43 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Kibo.com</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link rel="stylesheet" href="style.css">
         </head>
 
 <section>
-       <nav>
-      <img class="nav-img"  src="kibo project/logo.png">
-     
-      <div class="nav-links">
-        <ul>
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">OUR SERVICES</a></li>
-            <li><a href="#mem">MEMBERSHIP PLANS</a></li>
-            <li><a href="#locate">CONTACT US</a></li>
-            <li><a href="#flex">DONATE</a></li>
-            <li><a href="#flex">COVID-19</a></li>
-            <li> <a class="sign-in" href="#make">SIGN IN</a></li>
-      
-        </ul>
-        </div>
-    </nav>
+<style>
+    
+    .topnav {
+  background-color: white;
+  overflow: hidden;
+}
 
-</section>
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 47px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+}
+.nav-img{
+  width:150px;
+  margin-right: 1300px;
+}
+
+
+</style>
+<body>
+  
+<div class="topnav" id="myTopnav">
+  
+  <img class="nav-img"  src="kibo project/logo.png">
+    <a href="#">ABOUT US</a>
+    <a href="#">OUR SERVICES</a>
+    <a href="#mem">MEMBERSHIP PLANS</a>
+    <a href="#locate">CONTACT US</a>
+    <a href="#flex">DONATE</a>
+    <a href="#flex">COVID-19</a>
+     <a class="sign-in" href="#make">SIGN IN</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+
+
+      
+      
+      
+</div>
+
+
+
+
+
+
+
+
+<script>
+  
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }      feather.replace({ 'aria-hidden': 'true' });
+  
+  $(".togglePassword").click(function (e) {
+        e.preventDefault();
+        var type = $(this).parent().parent().find(".password").attr("type");
+        console.log(type);
+        if(type == "password"){
+            $("svg.feather.feather-eye").replaceWith(feather.icons["eye-off"].toSvg());
+            $(this).parent().parent().find(".password").attr("type","text");
+        }else if(type == "text"){
+            $("svg.feather.feather-eye-off").replaceWith(feather.icons["eye"].toSvg());
+            $(this).parent().parent().find(".password").attr("type","password");
+        }
+    });
+  </script>
        <section class="header">
            <div class="header-flex">
                <div>
 <h1 class="header-h1">We don’t just<br>
     treat symptoms,<br>
     we solve <strong>health <br>problems.</strong></h1>
+    <h1 class="header-h1-375">We don’t just
+        treat symptoms,
+        we solve <strong>health problems.</strong></h1>
     <p class=header-p>EHA CLINICS</p>
     </div>
     <div class="header-box">
@@ -162,7 +259,7 @@
         <h1 id="locate" class="membership-h1">Our <strong class="Membership-strong">Location</strong></h1>
      </div>
        <section class="header3">
-           &nbsp;;
+           &nbsp;
         <div class="header-box2">
             <h1  class="location-h1">EHA Clinics Abuja</h1>
             <p class="p-location">
@@ -234,7 +331,30 @@ Abuja, Nigeria
 
            © 2022 Try Kibo Project
        </section>
-       <script src="script.js"></script>
-        <body>
+  
+       <script>
+  
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }      feather.replace({ 'aria-hidden': 'true' });
+        
+        $(".togglePassword").click(function (e) {
+              e.preventDefault();
+              var type = $(this).parent().parent().find(".password").attr("type");
+              console.log(type);
+              if(type == "password"){
+                  $("svg.feather.feather-eye").replaceWith(feather.icons["eye-off"].toSvg());
+                  $(this).parent().parent().find(".password").attr("type","text");
+              }else if(type == "text"){
+                  $("svg.feather.feather-eye-off").replaceWith(feather.icons["eye"].toSvg());
+                  $(this).parent().parent().find(".password").attr("type","password");
+              }
+          });
+        </script>
         </body>
         </html>
